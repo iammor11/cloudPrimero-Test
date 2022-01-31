@@ -1,13 +1,93 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Poppins" "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#header {
+  height: 85px;
+  background-color: #442445;
+  overflow: hidden;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+}
+
+#header a {
+  color: white;
+}
+
+#header a:hover {
+  color: black;
+}
+
+#header h1 {
+  color: white;
+}
+
+#header h1:hover {
+  color: black;
+}
+
+#logo {
+  display: inline-block;
+  float: left;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+#header li {
+  margin: 15px 30px;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+#headingName {
+  width: 70%;
+  text-align: center;
+  margin-top: 12px;
+  display: inline-block;
+}
+
+.blocked {
+  cursor: not-allowed;
+}
+
+.ant-list {
+  margin: 50px !important;
+}
+
+.ant-list-items li {
+  background: antiquewhite;
+  margin-bottom: 25px !important;
+}
+
+#button {
+  width: 70px;
+  background: antiquewhite;
+  color: #442445;
+}
+
+#button:hover {
+  border-color: #442445;
+  background: #442445;
+  color: white;
+}
+
+#loginHeading {
+  background: #442445;
+  height: 75px;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+}
+
+#login {
+  margin: 5%;
+  background: antiquewhite;
 }
